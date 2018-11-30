@@ -1,0 +1,38 @@
+Test Title:
+Test Summary Description: what test checks for
+Pre condition: for the fulfilment of this test
+Dependencies:
+TestSteps: 
+TestData:
+Expected Result:
+PostCondition: state of system after execution of this test case
+Actual Result: 
+Status: 
+Notes/comments/questions:
+TestType: example- functional, usability, business
+Requirement: 
+
+
+
+:GET {
+    {
+    'get list of books'
+    inputURI: localhost:4000/books
+    testData:
+    action: hitURI-readFile-returnDataAsJson-respondWithJSONFileData,Status:200
+        -- check: is an array of custom object
+        -- check: returned data is in JSON format
+        -- check: 
+    }
+
+    {
+    'search for particular book'
+    inputURI: localhost:4000/books/search
+    testData: anyString.can.be(upperCase || lowerCase), 
+    action: hitURI-
+        -- check: 
+        -- check: 
+    }
+    
+
+} 

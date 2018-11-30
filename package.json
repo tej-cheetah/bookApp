@@ -1,0 +1,36 @@
+{
+  "name": "newbookapp",
+  "version": "1.0.0",
+  "description": "CRUD on JSON file for book data",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node app.js",
+    "stryker": "stryker run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tej-cheetah/bookApp.git"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "joi": "^13.7.0",
+    "jsonld": "^1.1.0",
+    "lodash": "^4.17.11"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^4.2.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.5",
+    "sinon": "^7.1.1",
+    "stryker": "^0.30.0",
+    "stryker-api": "^0.21.4",
+    "stryker-html-reporter": "^0.16.5",
+    "stryker-javascript-mutator": "^0.11.2",
+    "stryker-mocha-framework": "^0.12.5",
+    "stryker-mocha-runner": "^0.14.5"
+  }
+}
